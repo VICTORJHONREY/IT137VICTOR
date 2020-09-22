@@ -1,0 +1,62 @@
+body,
+html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    background: #503304 !important;
+}
+.user_card {
+    height: 500px;
+    width: 400px;
+    margin-top: auto;
+    margin-bottom: auto;
+    background: #f39c12;
+    box-shadow: 0px 0px 20px 0px;
+    border: solid 5px;
+    border-color: #000000;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    -moz-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 10px;
+
+}
+.brand_icon_container {
+    position: absolute;
+    height: 200px;
+    width: 200px;
+    top: -75px;
+    border-radius: 50%;
+    background: #60a3bc;
+    padding: 10px;
+    text-align: center;
+}
+.brand_icon {
+    height: 180px;
+    width: 180px;
+    border-radius: 50%;
+    border: 2px solid white;
+}
+
+form{
+    background: #ffffff;
+}
+
+.form-container{
+    margin-top: 50px;
+    padding: 30px;
+    border: 4px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 20px 0px;
+}
+
+
+.btn-login {
+    background: #f39c12;;
+    color: #000000;;
+    font-weight: 600;
+}
